@@ -1,0 +1,142 @@
+@media screen  and (max-width:884px){
+      
+header .hambug .menu{
+    display: block;
+    width: 90px;
+    position: absolute;
+    top: 5%;
+    left: 80%;
+    z-index: 1;
+   
+}
+
+
+header h1{
+    margin-left: 0.5rem;
+    font-size: 5rem;
+    animation:  titre 1s ease-in-out;
+}
+
+
+@keyframes  titre{
+     0%{
+               
+     
+        margin-left: -100%;
+     }100%{
+       
+        margin-left:0;
+
+     }
+
+}
+
+@keyframes  texte{
+     0%{
+               
+       margin-left: -100%;
+     }100%{
+       
+        margin-left:0;
+
+     }
+
+}
+
+
+.presentation{
+    animation:  texte 3s ease-in-out;
+}
+
+header .navLink{
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color:rgba(0, 0, 0, 0.26);
+     width: 100%;
+     height: 100vh;
+     top: -4%;
+     left: 0;
+     backdrop-filter:blur(10px);
+     z-index: 1;
+     margin-left: -100%;
+     transition: all 0.5s ease-in-out;
+     }
+
+
+
+     header .flip{
+        
+        margin-left: 0;
+     }
+
+header .navLink ul{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  
+      
+}
+
+header .navLink li{
+    margin: 25px 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+header .presentation{
+    padding: 1.9rem;
+    text-transform: uppercase;  
+}
+
+.presentation .titre .celest{
+    font-size: 80px;
+}
+
+.presentation .titre .horcen{
+    font-size: 60px;
+}
+
+
+.presentation  p{
+
+    font-size: 60px;
+   
+}
+
+
+
+.presentation  button{
+    margin-top: 1.8rem;
+    font-size: 1.8rem;
+}
+
+/*La partie service */
+
+
+.service-2{
+    position: absolute;
+    left: 33% ;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3rem;
+    font-weight: 900;
+}
+
+
+}
+
+
+
+
+@media screen  and (max-width:884px){
+
+    
+}

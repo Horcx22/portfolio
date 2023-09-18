@@ -1,0 +1,519 @@
+
+@media screen  and (max-width:884px){
+      
+    header .hambug .menu{
+        display: block;
+        width: 90px;
+        position: absolute;
+        top: 5%;
+        left: 80%;
+        z-index: 1;
+       
+    }
+    
+    
+    header h1{
+        margin-left: 0.5rem;
+        font-size: 5rem;
+        animation:  titre 1s ease-in-out;
+    }
+    
+    
+    @keyframes  titre{
+         0%{
+                   
+         
+            margin-left: -100%;
+         }100%{
+           
+            margin-left:0;
+    
+         }
+    
+    }
+    
+    @keyframes  texte{
+         0%{
+                   
+           margin-left: -100%;
+         }100%{
+           
+            margin-left:0;
+    
+         }
+    
+    }
+    
+    
+    .presentation{
+        animation:  texte 3s ease-in-out;
+    }
+    
+    header .navLink{
+         position: absolute;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         background-color:rgba(0, 0, 0, 0.26);
+         width: 100%;
+         height: 100vh;
+         top: -4%;
+         left: 0;
+         backdrop-filter:blur(10px);
+         z-index: 1;
+         margin-left: -100%;
+         transition: all 0.5s ease-in-out;
+         }
+    
+    
+    
+         header .flip{
+            
+            margin-left: 0;
+         }
+    
+    header .navLink ul{
+        display: flex;
+    
+        flex-direction: column;
+        align-items: center;
+      
+          
+    }
+    
+    header .navLink li{
+        margin: 25px 0;
+        font-size: 2.5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    header .presentation{
+        padding: 1.9rem;
+        text-transform: uppercase;  
+    }
+    
+    .presentation .titre .celest{
+        font-size: 80px;
+    }
+    
+    .presentation .titre .horcen{
+        font-size: 60px;
+    }
+    
+    
+    .presentation  p{
+    
+        font-size: 60px;
+       
+    }
+    
+    
+    
+    .presentation  button{
+        margin-top: 1.8rem;
+        font-size: 1.8rem;
+    }
+    
+    /*La partie service */
+    
+    
+    .service-2{
+        position: absolute;
+        left: 33% ;
+        color: #fff;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.3rem;
+        font-weight: 900;
+    }
+    
+    
+    }
+    
+    
+    
+    
+    @media screen  and (max-width:884px){
+        #contact{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #contact .text-contact h2{
+            text-align:center;
+            margin: 0;
+            font-size:2rem;
+            text-transform: uppercase;
+            margin-bottom: 0.3rem;
+        }
+        
+        #contact .text-contact p{
+            font-size: 1.5rem;
+            margin: 0;
+            text-align: center;
+        }
+        
+        #contact .form-container{
+            width: 700px;
+        }
+        
+        #contact .form-container input{
+            font-size: 1.8rem;
+        }
+        
+        
+        #contact .form-container label{
+            font-size:1.8rem;
+        }
+        
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================================*/
+
+@media screen  and (max-width:700px){
+
+    body{
+        overflow-x: hidden;
+    }
+    
+header .hambug .menu{
+    display: block;
+    width: 70px;
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    z-index: 1;
+   
+}
+
+
+header h1{
+    margin-left: 0.5rem;
+    font-size: 2.6rem;
+    animation:  titre 1s ease-in-out;
+}
+
+
+@keyframes  titre{
+     0%{
+               
+     
+        margin-left: -100%;
+     }100%{
+       
+        margin-left:0;
+
+     }
+
+}
+
+@keyframes  texte{
+     0%{
+               
+       margin-left: -100%;
+     }100%{
+       
+        margin-left:0;
+
+     }
+
+}
+
+
+.presentation{
+    animation:  texte 3s ease-in-out;
+}
+
+header .navLink{
+     position: absolute;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color:rgba(0, 0, 0, 0.26);
+     width: 100%;
+     height: 100vh;
+     top: -4%;
+     left: 0;
+     backdrop-filter:blur(10px);
+     z-index: 1;
+     margin-left: -100%;
+     transition: all 0.5s ease-in-out;
+     }
+
+
+
+     header .flip{
+        
+        margin-left: 0;
+     }
+
+header .navLink ul{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  
+      
+}
+
+header .navLink li{
+    margin: 25px 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+header .presentation{
+    padding: 1.9rem;
+    text-transform: uppercase;  
+}
+
+.presentation .titre .celest{
+    font-size: 40px;
+}
+
+.presentation .titre .horcen{
+    font-size: 30px;
+}
+
+
+.presentation  p{
+
+    font-size: 30px;
+   
+}
+
+
+
+.presentation  button{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+
+
+/*La partie a propos .....*/
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-me .just{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me .just-text h2{
+margin-top: 1rem;
+ text-align: center;
+ font-size: 2rem;
+
+}
+
+.about-me .just-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: auto;
+    
+}
+
+
+.about-me .just-text p{
+   
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+
+
+/*La partie Services*/
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+ margin-top: -110px;
+}
+
+
+.services>div{
+    margin-top: 0.8rem;
+    width: 300px;
+
+}
+
+.services .grille h3{
+    font-size: 1.8rem;
+   
+}
+
+.services .grille p{
+    font-size: 1.2rem;
+
+}
+
+.service-2 {
+    position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 51px;
+   
+}
+
+
+.service-2  h2{
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+
+
+/*la partie contact*/
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .text-contact h2{
+    text-align:center;
+    margin: 0;
+    font-size:2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+}
+
+#contact .text-contact p{
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+#contact .form-container{
+    width: 335px;
+}
+
+#contact .form-container input{
+    font-size: 1rem;
+}
+
+
+#contact .form-container label{
+    font-size:1rem;
+}
+
+
+
+
+
+}
+
+
+/*Pour les ecran de 428px*/
+
+
+
+/*pour l'ecran de notre iphone*/
+
+@media screen and (max-width: 428px) {
+    .presentation{
+    margin-left: -15px;
+    }
+
+.presentation .titre .horcen{
+    font-size: 28px;
+}
+
+
+    .about-me .just-text h2{
+        font-size: 0.9;
+    }
+   
+    .about-me .just-text{
+      
+    }
+
+
+    .about-me .just-text p {
+      font-size: 0.9rem; 
+      width: 300px;
+    }
+
+  }
+
+
+
+  /*pour les ecrans > || 320px*/
+  @media screen  and (max-width:360px){
+
+    
+    header .presentation{
+        padding: 2rem;
+        text-transform: uppercase; 
+        margin-left: -20px; 
+    }
+    
+    .presentation .titre .celest{
+        font-size: 30px;
+    }
+    
+    .presentation .titre .horcen{
+        font-size: 25px;
+    }
+    
+    
+    .presentation  p{
+        font-size: 30px;
+       
+    }
+
+
+    /*La partie contact */
+    #contact .text-contact h2{
+        text-align:center;
+        margin: 0;
+        font-size:1.6rem;
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        margin-bottom: 0.3rem;
+    }
+    
+    
+    
+    }
+    
